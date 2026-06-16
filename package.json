@@ -1,0 +1,27 @@
+{
+  "name": "next-algolia-cache-components",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of Algolia InstantSearchNext header access error during Next.js static pre-rendering",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "next": "16.2.6",
+    "react-instantsearch": "7.28.0",
+    "react-instantsearch-nextjs": "1.0.7",
+    "algoliasearch": "5.53.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "18.19.110",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}
+
