@@ -36,6 +36,10 @@ npm run build
 During `next build`, you should see an error similar to:
 
 ```
-⨯ Error occurred prerendering page "/[marketplace]/[locale]/store-locator". 
-Error [InvariantError]: Invariant: `headers` must not be used within a client component.
+Error occurred prerendering page "/[marketplace]/[locale]/store-locator". Read more: https://nextjs.org/docs/messages/prerender-error
+Error [InvariantError]: Invariant: `headers` must not be used within a client component. Next.js should be preventing `headers` from being included in client components statically, but did not in this case. This is a bug in Next.js.
+    at ignore-listed frames {
+  digest: '136421314@E1017'
+}
+Export encountered an error on /[marketplace]/[locale]/store-locator/page: /[marketplace]/[locale]/store-locator, exiting the build.
 ```
