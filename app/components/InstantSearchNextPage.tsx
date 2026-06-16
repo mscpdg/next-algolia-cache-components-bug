@@ -26,10 +26,6 @@ export function InstantSearchNextPage({
         searchClient={searchClient}
         indexName={indexName}
         routing={{
-          stateMapping: {
-            routeToState: (routeState) => routeState,
-            stateToRoute: (uiState) => uiState,
-          },
           router: {
             cleanUrlOnDispose: false,
           },
